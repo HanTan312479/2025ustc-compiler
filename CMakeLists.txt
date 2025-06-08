@@ -35,11 +35,11 @@ llvm_map_components_to_libnames(
 )
 
 INCLUDE_DIRECTORIES(
-    include
-    include/cminusfc
-    include/common
-    include/lightir
-    include/passes
+    ${PROJECT_SOURCE_DIR}/include
+    ${PROJECT_SOURCE_DIR}/include/cminusfc
+    ${PROJECT_SOURCE_DIR}/include/common
+    ${PROJECT_SOURCE_DIR}/include/lightir
+    ${PROJECT_SOURCE_DIR}/include/passes
     ${LLVM_INCLUDE_DIRS}
 )
 
